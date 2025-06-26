@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://firms.modaps.eosdis.nasa.gov/country/
+HostUrl=https://firms.modaps.eosdis.nasa.gov/data/country/modis/2024/modis_2024_India.csv
