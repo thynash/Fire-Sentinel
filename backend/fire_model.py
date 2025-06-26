@@ -2,8 +2,8 @@
 import os
 import xarray as xr
 
-def merge_grib_parts(part1_path="../data/fire_dataset_part1.grib",
-                     part2_path="../data/fire_dataset_part2.grib",
+def merge_grib_parts(part1_path="../data/ERA5/fire_dataset_part1.grib",
+                     part2_path="../data/ERA5/fire_dataset_part2.grib",
                      merged_path="../data/era5_input.grib"):
     """Merges two GRIB parts into a full GRIB file."""
     if os.path.exists(merged_path):
